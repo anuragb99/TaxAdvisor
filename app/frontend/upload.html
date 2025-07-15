@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Document - Tax Advisor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aptos+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card upload-card">
+        <h1>Upload Your Pay Slip or Form 16</h1>
+        <p class="subtitle">PDF only. Your data is processed securely and never stored.</p>
+        <div id="upload-error" class="error-message" style="display:none;"></div>
+        <input type="file" id="pdf-upload" accept="application/pdf" />
+        <button id="upload-btn" class="primary-btn">Upload & Extract</button>
+        <div id="progress" class="progress" style="display:none;">Extracting data...</div>
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html> 
